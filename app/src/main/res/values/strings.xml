@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Signup</string>
+    <string name="title_activity_volunteer">Volunteer</string>
+    <string name="title_activity_volunteers">Volunteers</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+
+    <string-array name="time">
+        <item>Choose Hours</item>
+        <item>0.5 Hours</item>
+        <item>1 Hours</item>
+        <item>1.5 Hours</item>
+        <item>2 Hours</item>
+        <item>2.5 Hours</item>
+        <item>3 Hours</item>
+        <item>3.5 Hours</item>
+    </string-array>
+
+    <string name="activity_name"> Talking</string>
+
+    <string-array name="activities_list">
+        <item>item 01</item>
+        <item>item 01</item>
+        <item>item 01</item>
+        <item>item 01</item>
+        <item>item 01</item>
+
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

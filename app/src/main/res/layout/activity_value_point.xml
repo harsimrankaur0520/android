@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:scrollbarTrackVertical="@color/white"
+    android:scrollbarThumbVertical="@color/dimGray"
+    android:scrollbarSize="15dp"
+    android:scrollbarStyle="outsideOverlay"
+    tools:context=".ValuePoint"
+    android:scrollbarDefaultDelayBeforeFade="1000">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/white">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="50dp"
+            android:text="VALUE POINT"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:background="@color/colorAccent"
+            android:textColor="#ffffff"
+            android:id="@+id/valuepts_valuepoints"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Your Value points :-"
+            android:textSize="30dp"
+            android:layout_marginTop="30dp"
+            android:layout_below="@+id/valuepts_valuepoints"
+            android:textStyle="bold"
+            android:id="@+id/yourVP_txt"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="0"
+            android:textSize="100dp"
+            android:textStyle="bold"
+            android:id="@+id/vp"
+
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="REDEEM"
+            android:background="@color/colorAccent"
+            android:textColor="#ffffff"
+            android:gravity="center"
+            android:textSize="30dp"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="10dp"
+
+            />
+
+
+        <GridView
+            android:id="@+id/grid_view_vp"
+            android:layout_width="match_parent"
+            android:layout_height="545dp"
+            android:columnWidth="100dp"
+            android:gravity="center"
+            android:horizontalSpacing="20dp"
+            android:numColumns="2"
+            android:stretchMode="columnWidth"
+            android:verticalSpacing="20dp" />
+
+
+    </LinearLayout>
+</ScrollView>

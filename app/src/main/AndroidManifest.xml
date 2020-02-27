@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:dist="http://schemas.android.com/apk/distribution"
+    package="com.example.signup">
+    <!-- To access Google+ APIs: -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE " />
+
+    <dist:module dist:instant="true" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon_main"
+        android:label="Pehal"
+        android:roundIcon="@drawable/icon_main"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Volunteer_activityList"></activity>
+        <activity android:name=".Password" />
+        <activity android:name=".ChangePassword" />
+        <activity android:name=".ValuePoint" />
+        <activity
+            android:name=".splashScreen"
+            android:theme="@style/splashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".launcher"
+            android:theme="@style/Launcher">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Profile" />
+        <activity android:name=".detailVolunteerList" />
+        <activity android:name=".uploadVolList" />
+        <activity android:name=".uploadNgoList" />
+        <activity android:name=".detailVolunteer" />
+        <activity android:name=".Volunteer">
+            <intent-filter>
+                <action android:name=".Volunteer" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Requester"
+            android:theme="@style/Requester">
+            <intent-filter>
+                <action android:name=".Requester" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".SignupForm" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".loginForm" />
+    </application>
+
+</manifest>
