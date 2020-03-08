@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".confirmation">
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Volunteer name"
+    android:gravity="center"
+    android:textSize="35dp"
+    android:textStyle="bold"
+    android:id="@+id/tv_confirmation_name"
+    android:layout_marginTop="20dp"
+    />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Check-in time"
+        android:textSize="25dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/tv_confirmation_timein"
+
+        />
+
+
+    <EditText
+        android:id="@+id/et_checkin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="time"
+        android:layout_marginTop="15dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Check-out time"
+        android:textSize="25dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/tv_confirmation_timeout"
+
+        />
+
+    <EditText
+        android:id="@+id/et_checkout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="time" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total time"
+        android:textSize="25dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/tv_confirmation_totaltime"
+
+        />
+
+    <EditText
+        android:id="@+id/et_totaltime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="time"
+        />
+
+    <Button
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="confirm"
+        android:id="@+id/btn_confirmation"
+        android:gravity="center"
+        android:layout_marginLeft="190px"
+        android:background="@drawable/button_rounded"
+        android:textColor="#ffffff"
+        android:textSize="30dp"
+        />
+
+
+
+
+</LinearLayout>

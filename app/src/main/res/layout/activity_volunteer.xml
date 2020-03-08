@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Volunteer"
+    android:id="@+id/drawer_layout"
+    android:fitsSystemWindows="true">
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".Volunteer"
+        android:orientation="vertical"
+        >
+
+      <EditText
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:hint="Search"
+          android:textSize="20sp"
+          android:id="@+id/searchText"
+          android:layout_margin="15dp"
+          />
+
+      <androidx.recyclerview.widget.RecyclerView
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:id="@+id/recyclerView"
+          android:scrollbars="vertical"
+          android:layout_below="@+id/searchText"
+          ></androidx.recyclerview.widget.RecyclerView>
+
+
+     <com.google.android.material.floatingactionbutton.FloatingActionButton
+          android:id="@+id/floatingActionButton"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:backgroundTint="@color/colorAccent"
+          android:layout_alignParentBottom="true"
+          android:layout_margin="30dp"
+          android:clickable="true"
+          android:layout_alignParentRight="true"
+          android:src="@drawable/ic_file_upload_black_24dp"
+          android:onClick="btn_uploadngo"/>
+
+
+
+    </RelativeLayout>
+
+
+  </LinearLayout>
+
+  <com.google.android.material.navigation.NavigationView
+      android:paddingTop="55dp"
+
+      android:layout_width="wrap_content"
+      android:layout_height="match_parent"
+      android:id="@+id/navigationView"
+      android:background="@color/white"
+      app:itemTextColor="@color/black"
+      app:itemIconTint="@color/black"
+      app:menu="@menu/drawermenu"
+      android:layout_gravity="start"/>
+
+</androidx.drawerlayout.widget.DrawerLayout>

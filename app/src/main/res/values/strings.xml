@@ -1,0 +1,65 @@
+<resources>
+    <string name="app_name" translatable="false">Signup</string>
+    <string name="title_activity_volunteer" translatable="false">Volunteer</string>
+    <string name="title_activity_volunteers" translatable="false">Volunteers</string>
+    <string name="open" translatable="false">Open</string>
+    <string name="close" translatable="false">Close</string>
+
+    <string-array name="time">
+        <item>Choose Hours</item>
+        <item>0.5 Hours</item>
+        <item>1 Hours</item>
+        <item>1.5 Hours</item>
+        <item>2 Hours</item>
+        <item>2.5 Hours</item>
+        <item>3 Hours</item>
+        <item>3.5 Hours</item>
+    </string-array>
+
+    <string name="activity_name" translatable="false"> Talking</string>
+
+    <string-array name="activities_list">
+        <item>item 01</item>
+        <item>item 01</item>
+        <item>item 01</item>
+        <item>item 01</item>
+        <item>item 01</item>
+
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <!--    <string name="hello_blank_fragment">Hello blank fragment</string>-->
+    <!--    <string name="Welcome">Welcome</string>-->
+    <!--    <string name="WelcomeMessage">Select :- Volunteer \n\n to give your time,skills or anything with multiple NGO \n\n Or \n\n Select :- Requester \n\n to Manage the volunteer Time</string>-->
+    <!--    <string name="btnVolunteer">volunteerbutton</string>-->
+    <!--    <string name="btnRequester">requesterbutton</string>-->
+    <string name="backPressed" translatable="false">press back button again to Exit</string>
+
+
+    <string name="contact_form" translatable="false">Contact Us</string>
+    <string name="contact_form_name" translatable="false">Your Name</string>
+    <string name="contact_form_email" translatable="false">Your Email</string>
+    <string name="contact_form_subject" translatable="false">Subject</string>
+    <string name="contact_form_message" translatable="false">Message</string>
+    <string name="contact_form_button" translatable="false">Send Message</string>
+    <string name="contact_form_post_message" translatable="false">Please wait! We\'re sending your message to the support department...</string>
+    <string name="contact_posted" translatable="false">Your message has been successfully delivered.</string>
+
+<!--    strings for launcher activity-->
+
+    <string name="connect_and_help_old_people">Connect and Help Old People</string>
+    <string name="join_now">Join Now</string>
+    <string name="already_have_an_account">Already have an Account? Login</string>
+    <string name="change_language">Change Language</string>
+
+
+<!--    strings for login_form activity-->
+
+     <string name="email">Email</string>
+    <string name="password">Password</string>
+      <string name="login">Login</string>
+     <string name="go_to_home">Go to Home </string>
+     <string name="forgot_password">Forgot Password?</string>
+
+
+</resources>

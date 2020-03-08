@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.signup">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE " />
+
+    <application
+        android:allowBackup="true"
+
+        android:icon="@drawable/icon_main"
+        android:label="Pehal"
+        android:roundIcon="@drawable/icon_main"
+        android:supportsRtl="false"
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning">
+        <activity android:name=".settingLanguage"/>
+        <activity android:name=".feedbackForm" />
+        <activity android:name=".Volunteer_activityList" />
+        <activity android:name=".Password" />
+        <activity android:name=".ChangePassword" />
+        <activity android:name=".ValuePoint" />
+        <activity android:name=".SignupForm" />
+        <activity
+            android:name=".MainActivity"/>
+
+
+        <activity
+            android:name=".loginForm"
+            android:theme="@style/NoActionBar" />
+        <activity android:name=".Profile" />
+        <activity android:name=".detailVolunteerList" />
+        <activity android:name=".uploadVolList" />
+        <activity android:name=".uploadNgoList" />
+        <activity android:name=".detailVolunteer" />
+        <activity android:name=".Volunteer" />
+        <activity android:name=".confirmation" />
+        <activity
+            android:name=".launcher"
+            android:theme="@style/Launcher" />
+        <activity
+            android:name=".Requester"
+            android:theme="@style/Requester" />
+        <activity
+            android:name=".splashScreen"
+            android:theme="@style/splashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

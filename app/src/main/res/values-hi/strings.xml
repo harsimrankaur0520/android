@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--    strings for launcher activity-->
+
+    <string name="connect_and_help_old_people">कनेक्ट करें और बूढ़े लोगों की मदद करें</string>
+    <string name="join_now">सम्मिलित हों</string>
+    <string name="already_have_an_account">पहले से ही एक खाता है? लॉग इन करें</string>
+    <string name="change_language">भाषा बदलो</string>
+
+    <!--    strings for login_form activity-->
+
+    <string name="email">ईमेल</string>
+    <string name="password">पासवर्ड</string>
+    <string name="login">लॉग इन</string>
+    <string name="go_to_home">मुखपृष्ठ प्र जाएं </string>
+    <string name="forgot_password">पासवर्ड भूल गए?</string>
+</resources>
